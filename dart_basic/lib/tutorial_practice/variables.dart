@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 int textSum(int m, int n){
   int sum = m + n;
 
@@ -22,4 +24,14 @@ void main(){
   ageOrName = "Kabir";
 
   print(ageOrName);
+
+  // const is constant type variable
+  // We cannot change the value of constant variable during run time
+  const institute = "Code Solution BD";
+  print(institute); // With new line
+
+  /* We cannot use stdout for browser based application */
+  /* Because in browser stdout will not run */
+  stdout.write(institute + " "); // Without new line
+  stdout.writeln(institute); // With new line
 }
