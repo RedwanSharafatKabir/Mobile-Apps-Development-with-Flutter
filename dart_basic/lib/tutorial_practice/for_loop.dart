@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 void main(){
   var numArr = [1, 3, 5, 7];
 
@@ -22,6 +24,53 @@ void main(){
   // Using for-each higher order function
   // Pass parameter to nElementOfArray method
   numArr.forEach((nElementOfArray));
+  print('------------------------------------');
+
+  // Pattern 1
+  print('\nPattern 1');
+  for(int i=5; i>0; i--){
+    for(int j=i; j>0; j--){
+      stdout.write('* ');
+    }
+
+    print('');
+  }
+
+  for(int i=1; i<5; i++){
+    for(int j=0; j<=i; j++){
+      stdout.write('* ');
+    }
+
+    print('');
+  }
+
+  // Pattern 2
+  print('\nPattern 2');
+  for(int i=0; i<5; i++){
+    for(int j=2*(5-i); j>=0; j--){
+      stdout.write(" ");
+    }
+
+    for(int j=0; j<=i; j++){
+      stdout.write('* ');
+    }
+
+    print('');
+  }
+
+  // Pattern 3
+  print('\nPattern 3');
+  for(int i=0; i<5; i++){
+    for(int j=5-i; j>=0; j--){
+      stdout.write(" ");
+    }
+
+    for(int j=0; j<=i; j++){
+      stdout.write('* ');
+    }
+
+    print('');
+  }
 }
 
 void nElementOfArray(num){
