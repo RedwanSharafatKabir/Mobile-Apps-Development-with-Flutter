@@ -1,6 +1,4 @@
 
-import 'dart:io';
-
 void main(){
   var n = 5;
 

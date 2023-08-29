@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/dart_basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/class_object.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/collection.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/for_loop.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/function.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/hello_world.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/null_aware_operator.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/string_conversion.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/type_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/user_input.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/variables.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/while_loop.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dart_basic/test/dart_basic_test.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2UbsvErqiNSKyXiSgcd8xiOWMKL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Android Projects/Mobile-Apps-Development-with-Flutter/Dart Programming",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="function.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/function.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="" />
+      <created>1693219845509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693219845509</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
