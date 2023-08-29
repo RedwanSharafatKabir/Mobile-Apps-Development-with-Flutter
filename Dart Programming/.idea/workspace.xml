@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/dart_basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/class_object.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/collection.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/for_loop.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/function.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/hello_world.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/null_aware_operator.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/string_conversion.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/type_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/user_input.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/variables.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/lib/tutorial_practice/while_loop.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/test/dart_basic_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
