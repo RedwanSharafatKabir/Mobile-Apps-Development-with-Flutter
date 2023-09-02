@@ -4,7 +4,8 @@ void main(List<String> arguments) {
 
   print(sumMethod(5, 3.2));
   print(sumDoubleMethod(5, 3.2));
-  print(doubleValue(2.5));
+  print(multiplyValue(2.5));
+  print(multiplyValue(15));
   print(square(2.5));
 }
 
@@ -18,7 +19,7 @@ double sumDoubleMethod(int m, double n){
 }
 
 // Here double means দ্বিগুণ
-dynamic doubleValue(var num){
+dynamic multiplyValue(var num){
   return num*2;
 }
 

@@ -1,6 +1,4 @@
 
-import 'dart:io';
-
 void main(){
 
   print('I\'m Redwan, I\'m 24'); // use \ to write single quotation inside a sentence
@@ -17,8 +15,7 @@ void main(){
   print('''I am Redwan,
   I am 24'''); // For single quotation
 
-  print("""I am Redwan,
-I am 24"""); // For double quotation
+  print("""I am Redwan, I am 24"""); // For double quotation
 
   // Parsing string into other data types
 
