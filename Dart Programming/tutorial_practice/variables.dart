@@ -9,6 +9,9 @@ int mathSum(int m, int n){
 
 void main(){
 
+  var num = 45;
+  print("num: $num");
+
   // we can change the value of var typed variable but not the data type
   var result = mathSum(5, 2);
   result = mathSum(4, 2);
@@ -35,4 +38,10 @@ void main(){
   stdout.write(institute + " "); // Without new line
   stdout.writeln(institute); // With new line
   print(institute);
+
+  // final is constant type variable
+  // We cannot change the value and data type of constant variable during run time
+  final office = "CCL";
+  print(office);
+  
 }
