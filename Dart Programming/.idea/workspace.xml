@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial_practice/parsing.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/null_aware_operator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/null_aware_operator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/variables.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/variables.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dart_basic/.packages" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
