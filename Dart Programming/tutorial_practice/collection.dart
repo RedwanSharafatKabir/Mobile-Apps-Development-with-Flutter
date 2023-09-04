@@ -2,24 +2,26 @@
 import 'dart:io';
 
 void main() {
-  // List
-  List<String> names = ["Redwan", "Sharafat", "Kabir"];
-  var info = ["DIU", 8737];
 
-  print(names[1]);
-  print(names.length);
+  // we can also use var instead of List<dynamic> data-type
+  /** If we use var instead of List<dynamic> we can change the values of the list, but not the data-type **/
 
-  for (var n in names) {
-    stdout.write(n.toString() + " ");
-  }
+  // we can also use dynamic instead of List<dynamic> data-type
+  /** If we use dynamic instead of List<dynamic> we can change the values of the list and data-type too **/
 
-  print('');
+  List<dynamic> info = ["DIU", 51, 37.89];
+
+  info.insert(1, "BUET");
+  info.insertAll(2, ["test", "temp"]);
+  info.add("IUT");
+  info.addAll(["test1", "temp1"]);
 
   for (var n in info) {
     stdout.write(n.toString() + " ");
   }
 
   print('');
+  print("Info size: ${info.length}");
 
   /* It will fetch info list */
   // var info2 = info;

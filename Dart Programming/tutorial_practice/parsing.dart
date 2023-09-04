@@ -12,5 +12,4 @@ void main(){
 
   /** double to integer **/
   print(double.parse(str1).toInt() + double.parse(str2).toInt());
-  
 }

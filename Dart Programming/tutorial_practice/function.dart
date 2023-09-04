@@ -1,5 +1,5 @@
 
-void main(List<String> arguments) {
+void main() {
   print('Hello world !');
 
   print(sumMethod(5, 3.2));
