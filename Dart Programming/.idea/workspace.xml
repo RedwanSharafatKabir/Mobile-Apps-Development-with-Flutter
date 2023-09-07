@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tutorial_practice/switch_case.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial_practice/collection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/collection.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/function.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/parsing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/parsing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_practice/for_loop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/for_loop.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_practice/null_aware_operator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/null_aware_operator.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,14 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.collection.dart">
+  <component name="RunManager" selected="Dart Command Line App.for_loop.dart">
     <configuration name="collection.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/collection.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
+      <method v="2" />
+    </configuration>
+    <configuration name="for_loop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/for_loop.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
       <method v="2" />
     </configuration>
@@ -64,28 +70,23 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
       <method v="2" />
     </configuration>
-    <configuration name="parsing.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/parsing.dart" />
+    <configuration name="switch_case.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/switch_case.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
       <method v="2" />
     </configuration>
-    <configuration name="type_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/type_test.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
-      <method v="2" />
-    </configuration>
-    <configuration name="variables.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/variables.dart" />
+    <configuration name="while_loop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/while_loop.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.collection.dart" />
-        <item itemvalue="Dart Command Line App.parsing.dart" />
-        <item itemvalue="Dart Command Line App.variables.dart" />
+        <item itemvalue="Dart Command Line App.for_loop.dart" />
+        <item itemvalue="Dart Command Line App.while_loop.dart" />
+        <item itemvalue="Dart Command Line App.switch_case.dart" />
         <item itemvalue="Dart Command Line App.null_aware_operator.dart" />
-        <item itemvalue="Dart Command Line App.type_test.dart" />
+        <item itemvalue="Dart Command Line App.collection.dart" />
       </list>
     </recent_temporary>
   </component>

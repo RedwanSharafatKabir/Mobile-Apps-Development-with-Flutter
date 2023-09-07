@@ -18,12 +18,14 @@ void main(){
 
   // for-each loop
   // Using short form of arrow function =>
-  numArr.forEach((nElementOfArray) => print(nElementOfArray));
+  print('for each 1');
+  numArr.forEach((nElementOfArray) {
+    print(nElementOfArray);
+  });
   print('------------------------------------');
 
-  // Using for-each higher order function
-  // Pass parameter to nElementOfArray method
-  numArr.forEach((nElementOfArray));
+  print('for each 2');
+  numArr.forEach((nElementOfArray) => print(nElementOfArray));
   print('------------------------------------');
 
   // Pattern 1

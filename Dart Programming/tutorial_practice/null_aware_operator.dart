@@ -20,8 +20,6 @@ void main(){
 
   // ?? is short-cut form of if condition (only when the value is null)
   var n3;
-  int? value3;
-
-  value3 = n3 ?? 50; // if(n3 == null) { value = 50; }
-  print(value3);
+  value2 = n3 ?? 50; // if(n3 == null) { value = 50; }
+  print(value2);
 }
