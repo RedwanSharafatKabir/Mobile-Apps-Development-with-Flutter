@@ -9,7 +9,7 @@ void main() {
   // we can also use dynamic instead of List<dynamic> data-type
   /** If we use dynamic instead of List<dynamic> we can change the values of the list and data-type too **/
 
-  List<dynamic> info = ["DIU", 51, 37.89];
+  List<dynamic> info = ["DIU", 51, 37.89, true];
 
   info.insert(1, "BUET");
   info.insertAll(2, ["test", "temp"]);
