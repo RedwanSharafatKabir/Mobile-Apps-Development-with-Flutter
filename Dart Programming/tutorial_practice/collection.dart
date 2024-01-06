@@ -101,4 +101,26 @@ void main() {
 
   print(infoMap2);
   print("Section: " + infoMap2[3] + ", Department: "+ infoMap2[4] + ", Club: " + infoMap2[5]);
+
+  // Map with constructor
+  var infoMap3 = new Map();
+  infoMap3['name'] = 'Redwan';
+  infoMap3['age'] = 25;
+
+  print(infoMap3);
+  print("Length: ${infoMap3.length}");
+  print(infoMap3.keys);
+  print(infoMap3.values);
+  
+  infoMap3.addAll(infoMap);
+
+  /** In infoMap Map there is already a value which's key is name **/
+  /** So the output will show only one value against "name key" **/
+  print(infoMap3['name']);
+  
+  infoMap3.remove("age");
+  print(infoMap3.values);
+
+  infoMap3.clear();
+  print(infoMap3.values);
 }
