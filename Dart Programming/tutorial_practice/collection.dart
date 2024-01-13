@@ -26,6 +26,7 @@ void main() {
 
   info.removeAt(7);
   info.remove("temp1");
+  info.removeAt(2);
   print(info);
 
   /** It will fetch info list **/
