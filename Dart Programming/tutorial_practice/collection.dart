@@ -52,7 +52,7 @@ void main() {
   ////////////////////////////////////////////////////
 
   // Set
-  /** When we declare a variable with empty {} but set the data type it is a Hash-Set by default **/
+  /** When we declare a variable with empty {} but set the data type, it is a Hash-Set by default **/
   var testSet = <bool>{};
   print("Type of Test Set is: " + testSet.runtimeType.toString());
   testSet = <double>{}.cast<bool>();
@@ -61,6 +61,13 @@ void main() {
   /** When we declare a variable containing elements inside {} it is a Hash-Set **/
   var mySet = {"AMI", "AMI", "API"};
   print("Type of My Set is: " + mySet.runtimeType.toString());
+
+  /** for each loop **/
+  mySet.forEach((element) {
+    stdout.write("$element ");
+  });
+
+  print('');
 
   for(var n in mySet){
     stdout.write(n.toString() + " ");
@@ -120,6 +127,7 @@ void main() {
   print(infoMap3['name']);
   
   infoMap3.remove("age");
+  print(infoMap3);
   print(infoMap3.values);
 
   infoMap3.clear();
