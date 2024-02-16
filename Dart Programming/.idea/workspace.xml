@@ -7,9 +7,6 @@
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial_practice/collection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/collection.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/function.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/null_aware_operator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/null_aware_operator_and_if_else.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/switch_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_practice/switch_case.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Kotlin_OOP_Applications",
+    "last_opened_file_path": "D:/Mobile-Apps-Development-with-Flutter/Dart Programming",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -60,7 +57,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.function.dart">
+  <component name="RunManager" selected="Dart Command Line App.collection.dart">
     <configuration name="collection.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/tutorial_practice/collection.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/tutorial_practice" />
@@ -93,10 +90,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.collection.dart" />
         <item itemvalue="Dart Command Line App.switch_case.dart" />
         <item itemvalue="Dart Command Line App.null_aware_operator_and_if_else.dart" />
         <item itemvalue="Dart Command Line App.control_flow_statement.dart" />
-        <item itemvalue="Dart Command Line App.collection.dart" />
         <item itemvalue="Dart Command Line App.variables.dart" />
       </list>
     </recent_temporary>

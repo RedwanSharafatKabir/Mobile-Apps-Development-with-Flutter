@@ -96,17 +96,29 @@ void main() {
   print("Club: " + infoMap["club"].toString());
 
   // integer key value pair
+  /** Line no. 100 and 101 are same.
+  * But if we use Map<int, String> this data type,
+  * we cannot assign value of line no. 108 and 109 **/
+  // Map<int, String> infoMap2 = {
   Map infoMap2 = {
     1: "8737",
     2: "Munna",
     3: "D",
-    4: "CSE"
+    4: "CSE",
+    'ssd_0': 55.23,
+    6: {
+      'ssd_1': 55.23,
+      'ssd_2': 56.23
+    }
   };
 
   // insert value in the instance of Map() class
   infoMap2 [5] = "CPC";
   infoMap2.remove(2);
 
+  print("BOOOOOOOM_1 ! ${infoMap2['ssd_0']}");
+  print("BOOOOOOOM_2 ! ${infoMap2[6]['ssd_2']}");
+  print("BOOOOOOOM_Contains ! ${infoMap2[6].containsValue(56.23)}");
   print(infoMap2);
   print("Section: " + infoMap2[3] + ", Department: "+ infoMap2[4] + ", Club: " + infoMap2[5]);
 
@@ -128,7 +140,10 @@ void main() {
   
   infoMap3.remove("age");
   print(infoMap3);
+
   print(infoMap3.values);
+  print(infoMap3.values.first);
+  print(infoMap3.values.last);
 
   infoMap3.clear();
   print(infoMap3.values);
