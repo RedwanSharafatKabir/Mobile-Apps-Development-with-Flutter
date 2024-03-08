@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basic_syntax/function.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_syntax/while_loop.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dart_oop/class_object.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/class_object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/class_object.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/collection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/collection.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/for_loop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/for_loop.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/function.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/hello_world.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/hello_world.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/null_aware_operator_and_if_else.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/null_aware_operator_and_conditional.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/parsing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/parsing.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/string_concate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/string_concate.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/string_conversion.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/string_conversion.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/switch_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/switch_case.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/type_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/type_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/user_input.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/user_input.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/variables.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/variables.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial_practice/while_loop.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Dart Command Line App.class_object.dart.executor": "Run",
     "Dart Command Line App.collection.dart.executor": "Run",
     "Dart Command Line App.control_flow_statement.dart.executor": "Run",
     "Dart Command Line App.function.dart.executor": "Run",
@@ -73,14 +59,14 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.null_aware_operator_and_conditional.dart">
-    <configuration name="collection.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/basic_syntax/collection.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
+  <component name="RunManager" selected="Dart Command Line App.class_object.dart">
+    <configuration name="class_object.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart_oop/class_object.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
       <method v="2" />
     </configuration>
-    <configuration name="control_flow_statement.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/basic_syntax/control_flow_statement.dart" />
+    <configuration name="collection.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/basic_syntax/collection.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
       <method v="2" />
     </configuration>
@@ -106,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.class_object.dart" />
         <item itemvalue="Dart Command Line App.null_aware_operator_and_conditional.dart" />
         <item itemvalue="Dart Command Line App.while_loop.dart" />
         <item itemvalue="Dart Command Line App.collection.dart" />
         <item itemvalue="Dart Command Line App.switch_case.dart" />
-        <item itemvalue="Dart Command Line App.control_flow_statement.dart" />
       </list>
     </recent_temporary>
   </component>
