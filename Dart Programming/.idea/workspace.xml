@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dart_oop/class_object.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dart_oop/EncapsulcationTest.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Dart Command Line App.Access_EncapsulationTest_Class.dart.executor": "Run",
     "Dart Command Line App.class_object.dart.executor": "Run",
     "Dart Command Line App.collection.dart.executor": "Run",
     "Dart Command Line App.control_flow_statement.dart.executor": "Run",
+    "Dart Command Line App.encaplsulcation.dart.executor": "Run",
     "Dart Command Line App.function.dart.executor": "Run",
     "Dart Command Line App.null_aware_operator.dart.executor": "Run",
     "Dart Command Line App.null_aware_operator_and_if_else.dart.executor": "Run",
@@ -55,19 +58,19 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "dart.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.class_object.dart">
-    <configuration name="class_object.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart_oop/class_object.dart" />
+  <component name="RunManager" selected="Dart Command Line App.Access_EncapsulationTest_Class.dart">
+    <configuration name="Access_EncapsulationTest_Class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
       <method v="2" />
     </configuration>
-    <configuration name="collection.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/basic_syntax/collection.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
+    <configuration name="EncapsulcationTest.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/dart_oop/EncapsulcationTest.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
       <method v="2" />
     </configuration>
     <configuration name="function.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
@@ -92,11 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.class_object.dart" />
-        <item itemvalue="Dart Command Line App.null_aware_operator_and_conditional.dart" />
-        <item itemvalue="Dart Command Line App.while_loop.dart" />
-        <item itemvalue="Dart Command Line App.collection.dart" />
-        <item itemvalue="Dart Command Line App.switch_case.dart" />
+        <item itemvalue="Dart Command Line App.Access_EncapsulationTest_Class.dart" />
+        <item itemvalue="Dart Command Line App.EncapsulcationTest.dart" />
       </list>
     </recent_temporary>
   </component>
