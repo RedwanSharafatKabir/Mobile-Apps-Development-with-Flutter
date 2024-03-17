@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dart_oop/EncapsulcationTest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Dart Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dart Programming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_syntax/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/function.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +55,15 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Mobile-Apps-Development-with-Flutter/Dart Programming",
+    "last_opened_file_path": "E:/Software/Dart and Flutter/dart-sdk",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Dart Command Line App.Access_EncapsulationTest_Class.dart">
+  <component name="RunManager" selected="Dart Command Line App.function.dart">
     <configuration name="Access_EncapsulationTest_Class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
