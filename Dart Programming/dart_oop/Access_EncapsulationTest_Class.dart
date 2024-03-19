@@ -12,4 +12,9 @@ void main(){
 
   testObj.setLastName("Sharafat"); /** setter method **/
   print(testObj.getUserInfo());
+
+  testObj.setAge = 25; /** setter method with set keyword **/
+  print(testObj.getUserInfo());
+
+  print("Last Name: ${testObj.getLastName}");
 }

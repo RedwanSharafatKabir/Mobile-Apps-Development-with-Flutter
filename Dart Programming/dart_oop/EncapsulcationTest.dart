@@ -4,12 +4,12 @@ class EncapsulationTest {
   String _firstName;
   String _lastName;
   String address;
-  int age;
+  int _age;
 
-  EncapsulationTest(this._firstName, this._lastName, this.address, this.age);
+  EncapsulationTest(this._firstName, this._lastName, this.address, this._age);
 
   String getUserInfo(){
-    String userInfo = "$_firstName $_lastName, $address, $age";
+    String userInfo = "$_firstName $_lastName, $address, $_age";
 
     return userInfo;
   }
@@ -18,5 +18,15 @@ class EncapsulationTest {
     if(_lastName=="Munna"){
       _lastName = modifiedLastName;
     }
+  }
+
+  void set setAge(int newAge){
+    if(_age<18){
+      _age = newAge;
+    }
+  }
+
+  String get getLastName {
+    return _lastName;
   }
 }
