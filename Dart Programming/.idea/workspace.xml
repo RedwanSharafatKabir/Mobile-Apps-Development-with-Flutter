@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="" />
+    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dart_oop/Inheritence_Child.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dart_oop/Inheritence_Parent.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/Inheritence.dart" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +64,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.function.dart">
+  <component name="RunManager" selected="Dart Command Line App.Access_EncapsulationTest_Class.dart">
     <configuration name="Access_EncapsulationTest_Class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
