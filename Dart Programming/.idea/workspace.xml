@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dart_oop/Inheritence_Child.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dart_oop/Inheritence_Parent.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/object_oriented_programming/Inheritance_Child.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dart_oop/Inheritence.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/Access_EncapsulationTest_Class.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/EncapsulcationTest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/EncapsulcationTest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/Inheritence_Child.dart" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/Inheritance_Parent.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/Inheritence_Parent.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dart_oop/class_object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented_programming/class_object.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,51 +39,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Dart Command Line App.Access_EncapsulationTest_Class.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.class_object.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.collection.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.control_flow_statement.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.encaplsulcation.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.function.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.null_aware_operator.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.null_aware_operator_and_if_else.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.switch_case.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.variables.dart.executor&quot;: &quot;Run&quot;,
-    &quot;Dart Command Line App.while_loop.dart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Android Studio, JDK, Dart SDK, Flutter and IntelliJ idea/dart-sdk&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.Access_EncapsulationTest_Class.dart.executor": "Run",
+    "Dart Command Line App.Inheritance_Child.dart.executor": "Run",
+    "Dart Command Line App.class_object.dart.executor": "Run",
+    "Dart Command Line App.collection.dart.executor": "Run",
+    "Dart Command Line App.control_flow_statement.dart.executor": "Run",
+    "Dart Command Line App.encaplsulcation.dart.executor": "Run",
+    "Dart Command Line App.function.dart.executor": "Run",
+    "Dart Command Line App.null_aware_operator.dart.executor": "Run",
+    "Dart Command Line App.null_aware_operator_and_if_else.dart.executor": "Run",
+    "Dart Command Line App.switch_case.dart.executor": "Run",
+    "Dart Command Line App.variables.dart.executor": "Run",
+    "Dart Command Line App.while_loop.dart.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Kotlin_OOP_Applications",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
-  <component name="RunManager" selected="Dart Command Line App.Access_EncapsulationTest_Class.dart">
+}]]></component>
+  <component name="RunManager" selected="Dart Command Line App.Inheritance_Child.dart">
     <configuration name="Access_EncapsulationTest_Class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart_oop/Access_EncapsulationTest_Class.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
+      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/Access_EncapsulationTest_Class.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming" />
       <method v="2" />
     </configuration>
     <configuration name="EncapsulcationTest.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/dart_oop/EncapsulcationTest.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/dart_oop" />
+      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/EncapsulcationTest.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Inheritance_Child.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/Inheritance_Child.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming" />
       <method v="2" />
     </configuration>
     <configuration name="function.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/basic_syntax/function.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
-      <method v="2" />
-    </configuration>
-    <configuration name="null_aware_operator_and_conditional.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/basic_syntax/null_aware_operator_and_conditional.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
       <method v="2" />
     </configuration>
@@ -97,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.Inheritance_Child.dart" />
         <item itemvalue="Dart Command Line App.Access_EncapsulationTest_Class.dart" />
         <item itemvalue="Dart Command Line App.EncapsulcationTest.dart" />
       </list>
