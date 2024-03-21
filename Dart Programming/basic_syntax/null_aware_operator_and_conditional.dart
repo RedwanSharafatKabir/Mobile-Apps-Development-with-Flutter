@@ -1,6 +1,4 @@
 
-import 'dart:io';
-
 class Num{
   int num = 10;
 }

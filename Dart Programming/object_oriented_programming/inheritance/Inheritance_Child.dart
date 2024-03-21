@@ -14,7 +14,6 @@ class Student extends Human {
     super.walking(); /** It will execute the walking unction of parent class Human **/
 
     print('Standing with $leg legs');
-
     print('Student Name: $name');
   }
 }

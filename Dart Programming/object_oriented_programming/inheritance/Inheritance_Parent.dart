@@ -1,5 +1,5 @@
 
-class Human {
+class Human{
   late int hand;
   late int leg;
 
