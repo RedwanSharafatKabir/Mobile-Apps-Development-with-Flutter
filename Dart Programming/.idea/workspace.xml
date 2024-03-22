@@ -79,7 +79,7 @@
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\abstraction" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.live_test_1.dart">
+  <component name="RunManager" selected="Dart Command Line App.fruit_problem_live_test.dart">
     <configuration name="Exception_Handling.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/Exception_Handling.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming" />
@@ -95,6 +95,11 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
       <method v="2" />
     </configuration>
+    <configuration name="fruit_problem_live_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/problem_solving/fruit_problem_live_test.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming/problem_solving" />
+      <method v="2" />
+    </configuration>
     <configuration name="function.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/basic_syntax/function.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/basic_syntax" />
@@ -105,14 +110,9 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming/problem_solving" />
       <method v="2" />
     </configuration>
-    <configuration name="live_test_1.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/problem_solving/live_test_1.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming/problem_solving" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.live_test_1.dart" />
+        <item itemvalue="Dart Command Line App.fruit_problem_live_test.dart" />
         <item itemvalue="Dart Command Line App.collection.dart" />
         <item itemvalue="Dart Command Line App.for_loop.dart" />
         <item itemvalue="Dart Command Line App.inheritance_test.dart" />
