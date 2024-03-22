@@ -96,8 +96,8 @@
       <method v="2" />
     </configuration>
     <configuration name="fruit_problem_live_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/problem_solving/fruit_problem_live_test.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming/problem_solving" />
+      <option name="filePath" value="$PROJECT_DIR$/problem_solving/fruit_problem_live_test.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/problem_solving" />
       <method v="2" />
     </configuration>
     <configuration name="function.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
@@ -106,8 +106,8 @@
       <method v="2" />
     </configuration>
     <configuration name="inheritance_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/object_oriented_programming/problem_solving/inheritance_test.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/object_oriented_programming/problem_solving" />
+      <option name="filePath" value="$PROJECT_DIR$/problem_solving/inheritance_test.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/problem_solving" />
       <method v="2" />
     </configuration>
     <recent_temporary>
