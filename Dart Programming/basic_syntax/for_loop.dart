@@ -18,13 +18,13 @@ void main(){
 
   // for-each loop
   // Using short form of arrow function =>
-  print('for each 1');
+  print('for each - 1');
   numArr.forEach((nElementOfArray) {
     print(nElementOfArray);
   });
   print('------------------------------------');
 
-  print('for each 2');
+  print('for each - 2');
   numArr.forEach((nElementOfArray) => print(nElementOfArray));
   print('------------------------------------');
 
