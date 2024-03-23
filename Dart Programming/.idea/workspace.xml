@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="" />
+    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,41 +33,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Dart Command Line App.Abstract_Class_Child.dart.executor": "Run",
-    "Dart Command Line App.Access_EncapsulationTest_Class.dart.executor": "Run",
-    "Dart Command Line App.Call_Abstraction.dart.executor": "Run",
-    "Dart Command Line App.Exception_Handling.dart.executor": "Run",
-    "Dart Command Line App.Inheritance_Child.dart.executor": "Run",
-    "Dart Command Line App.assignment_1.dart.executor": "Run",
-    "Dart Command Line App.class_object.dart.executor": "Run",
-    "Dart Command Line App.collection.dart.executor": "Run",
-    "Dart Command Line App.control_flow_statement.dart.executor": "Run",
-    "Dart Command Line App.encaplsulcation.dart.executor": "Run",
-    "Dart Command Line App.for_loop.dart.executor": "Run",
-    "Dart Command Line App.fruit_problem_live_test.dart.executor": "Run",
-    "Dart Command Line App.function.dart.executor": "Run",
-    "Dart Command Line App.live_test_1.dart.executor": "Run",
-    "Dart Command Line App.null_aware_operator.dart.executor": "Run",
-    "Dart Command Line App.null_aware_operator_and_if_else.dart.executor": "Run",
-    "Dart Command Line App.switch_case.dart.executor": "Run",
-    "Dart Command Line App.variables.dart.executor": "Run",
-    "Dart Command Line App.while_loop.dart.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Mobile-Apps-Development-with-Flutter/Dart Programming",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Dart Command Line App.Abstract_Class_Child.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.Access_EncapsulationTest_Class.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.Call_Abstraction.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.Exception_Handling.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.Inheritance_Child.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.assignment_1.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.class_object.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.collection.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.control_flow_statement.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.encaplsulcation.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.for_loop.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.fruit_problem_live_test.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.function.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.live_test_1.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.null_aware_operator.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.null_aware_operator_and_if_else.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.switch_case.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.variables.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.while_loop.dart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mobile-Apps-Development-with-Flutter/Dart Programming&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming" />
