@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/object_oriented_programming/problem_solving/inheritance_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object_oriented_programming/problem_solving/live_test_1.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_syntax/for_loop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/basic_syntax/for_loop.dart" afterDir="false" />
-    </list>
+    <list default="true" id="04e5a665-aa6a-426e-b98b-1fbc5d86248a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +44,7 @@
     "Dart Command Line App.control_flow_statement.dart.executor": "Run",
     "Dart Command Line App.encaplsulcation.dart.executor": "Run",
     "Dart Command Line App.for_loop.dart.executor": "Run",
+    "Dart Command Line App.fruit_problem_live_test.dart.executor": "Run",
     "Dart Command Line App.function.dart.executor": "Run",
     "Dart Command Line App.live_test_1.dart.executor": "Run",
     "Dart Command Line App.null_aware_operator.dart.executor": "Run",
@@ -62,7 +58,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Kotlin_OOP_Applications",
+    "last_opened_file_path": "D:/Mobile-Apps-Development-with-Flutter/Dart Programming",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -72,11 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming" />
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\assignment" />
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\inheritance" />
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\encapsulation" />
       <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\abstract" />
-      <recent name="D:\Mobile-Apps-Development-with-Flutter\Dart Programming\object_oriented_programming\abstraction" />
     </key>
   </component>
   <component name="RunManager" selected="Dart Command Line App.fruit_problem_live_test.dart">
