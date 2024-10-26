@@ -22,9 +22,9 @@ class HomeActivity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: const Text('Hello FQ Solution'),
+      appBar: AppBar(title: const Text("FQ Solution")),
+      body: const Text('Hello Flutter'),
+
     );
   }
-
 }
