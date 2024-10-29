@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 void main() {
@@ -43,22 +45,27 @@ class HomeActivity extends StatefulWidget {
 }
 
 class _HomeActivityState extends State<HomeActivity>{
-  int _currentIndex = 0;
+  int _currentBottomNavBarIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Flutter Beginner"),
+        title: const Text(
+          "Flutter Beginner",
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.bold
+          ),
+        ),
         titleSpacing: 0,
         centerTitle: true,
         toolbarHeight: 55,
         toolbarOpacity: 0.8,
         elevation: 10,
-        actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.menu))
-        ],
-
+        // actions: [
+        //   IconButton(onPressed: (){}, icon: const Icon(Icons.menu))
+        // ],
       ),
 
       floatingActionButton: Padding(
@@ -76,7 +83,7 @@ class _HomeActivityState extends State<HomeActivity>{
       ),
 
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
+        currentIndex: _currentBottomNavBarIndex,
         backgroundColor: Colors.white,
         unselectedItemColor: Colors.grey,
         selectedItemColor: Colors.blue,
@@ -87,15 +94,89 @@ class _HomeActivityState extends State<HomeActivity>{
           BottomNavigationBarItem(icon: Icon(Icons.open_in_browser_outlined), label: "Browse"),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
         ],
-        onTap: _onItemTapped,
+        onTap: _onBottomNavBarItemTapped,
 
       ),
+
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            GestureDetector(
+              child: DrawerHeader(
+                padding: EdgeInsets.zero,
+                child: UserAccountsDrawerHeader(
+                  decoration: const BoxDecoration(color: Colors.lightBlue),
+                  accountName: const Text("Redwan Sharafat Kabir"),
+                  accountEmail: const Text("redwansharafat@gmail.com"),
+                  currentAccountPicture: Container(
+                    margin: const EdgeInsets.only(bottom: 5.0),
+                    child: const CircleAvatar(
+                      backgroundImage: NetworkImage("https://t4.ftcdn.net/jpg/06/15/99/55/360_F_615995510_D2Zu1yDqFacBfb71hAnPGwWXB3EhYS1H.jpg"),
+                    ),
+                  ),
+                ),
+              ),
+
+              onTap: (){
+                showToastMessage("Profile");
+              },
+            ),
+
+            ListTile(
+              leading: const Icon(Icons.person_outlined),
+              title: const Text(
+                "Profile",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  )
+                ),
+              onTap: (){
+                showToastMessage("Profile");
+              },
+            ),
+
+            ListTile(
+              leading: const Icon(Icons.settings_outlined),
+              title: const Text(
+                "App Settings",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold
+                  ),
+                ),
+              onTap: (){
+                showToastMessage("App Settings");
+              },
+            ),
+
+            ListTile(
+              leading: const Icon(Icons.logout_outlined),
+              title: const Text(
+              "Logout",
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+              onTap: (){
+                showToastMessage("Logout ?");
+              },
+            )
+          ],
+        ),
+      ),
+
+      body: const Center(
+        child: Text("Hello World !"),
+      ),
+
     );
   }
 
-  void _onItemTapped(int index) {
+  void _onBottomNavBarItemTapped(int index) {
     setState(() {
-      _currentIndex = index;
+      _currentBottomNavBarIndex = index;
     });
 
     switch (index) {
