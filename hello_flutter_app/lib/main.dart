@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:hello_flutter_app/Strings.dart';
 
 void main() {
   runApp(const MyApp());
@@ -111,7 +112,7 @@ class _HomeActivityState extends State<HomeActivity>{
                   currentAccountPicture: Container(
                     margin: const EdgeInsets.only(bottom: 5.0),
                     child: const CircleAvatar(
-                      backgroundImage: NetworkImage("https://t4.ftcdn.net/jpg/06/15/99/55/360_F_615995510_D2Zu1yDqFacBfb71hAnPGwWXB3EhYS1H.jpg"),
+                      backgroundImage: NetworkImage(Strings.imageUrl),
                     ),
                   ),
                 ),
@@ -167,8 +168,17 @@ class _HomeActivityState extends State<HomeActivity>{
         ),
       ),
 
-      body: const Center(
-        child: Text("Hello World !"),
+      body: Container(
+        color: Colors.white70,
+        padding: const EdgeInsets.all(10),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl)),
+            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl)),
+            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl))
+          ],
+        ),
       ),
 
     );
