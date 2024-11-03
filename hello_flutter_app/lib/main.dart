@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hello_flutter_app/Strings.dart';
@@ -53,7 +54,7 @@ class _HomeActivityState extends State<HomeActivity>{
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Flutter Beginner",
+          "Flutter Widgets",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.bold
@@ -70,15 +71,18 @@ class _HomeActivityState extends State<HomeActivity>{
       ),
 
       floatingActionButton: Padding(
-        padding: const EdgeInsets.only(right: 5.0, bottom: 50.0),
+        padding: const EdgeInsets.only(right: 5.0, bottom: 30.0),
 
         child: FloatingActionButton(
           elevation: 10,
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
           onPressed: (){
-            showSnackBar("Item added.", context);
+            _saveItem(context);
           },
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(100))
+          ),
           child: const Icon(Icons.add),
         ),
       ),
@@ -99,90 +103,157 @@ class _HomeActivityState extends State<HomeActivity>{
 
       ),
 
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            GestureDetector(
-              child: DrawerHeader(
-                padding: EdgeInsets.zero,
-                child: UserAccountsDrawerHeader(
-                  decoration: const BoxDecoration(color: Colors.lightBlue),
-                  accountName: const Text("Redwan Sharafat Kabir"),
-                  accountEmail: const Text("redwansharafat@gmail.com"),
-                  currentAccountPicture: Container(
-                    margin: const EdgeInsets.only(bottom: 5.0),
-                    child: const CircleAvatar(
-                      backgroundImage: NetworkImage(Strings.imageUrl),
+      drawer: SafeArea(
+        child: Drawer(
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(topRight: Radius.circular(20)),
+          ),
+          child: ListView(
+            children: [
+              GestureDetector(
+                child: DrawerHeader(
+                  padding: EdgeInsets.zero,
+                  child: UserAccountsDrawerHeader(
+                    decoration: const BoxDecoration(color: Colors.lightBlue),
+                    accountName: const Text("Redwan Sharafat Kabir"),
+                    accountEmail: const Text("redwansharafat@gmail.com"),
+                    currentAccountPicture: Container(
+                      margin: const EdgeInsets.only(bottom: 5.0),
+                      child: const CircleAvatar(
+                        backgroundImage: NetworkImage(Strings.imageUrl),
+                      ),
                     ),
                   ),
                 ),
+                onTap: () {
+                  showToastMessage("Profile");
+                },
               ),
-
-              onTap: (){
-                showToastMessage("Profile");
-              },
-            ),
-
-            ListTile(
-              leading: const Icon(Icons.person_outlined),
-              title: const Text(
-                "Profile",
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold
-                  )
+              ListTile(
+                leading: const Icon(Icons.person_outlined),
+                title: const Text(
+                  "Profile",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
-              onTap: (){
-                showToastMessage("Profile");
-              },
-            ),
-
-            ListTile(
-              leading: const Icon(Icons.settings_outlined),
-              title: const Text(
-                "App Settings",
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.bold
-                  ),
-                ),
-              onTap: (){
-                showToastMessage("App Settings");
-              },
-            ),
-
-            ListTile(
-              leading: const Icon(Icons.logout_outlined),
-              title: const Text(
-              "Logout",
-                style: TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold
-                ),
+                onTap: () {
+                  showToastMessage("Profile");
+                },
               ),
-              onTap: (){
-                showToastMessage("Logout ?");
-              },
-            )
-          ],
+              ListTile(
+                leading: const Icon(Icons.settings_outlined),
+                title: const Text(
+                  "App Settings",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                onTap: () {
+                  showToastMessage("App Settings");
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.logout_outlined),
+                title: const Text(
+                  "Logout",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                onTap: () {
+                  _showAddItemDialog(context);
+                },
+              ),
+            ],
+          ),
         ),
       ),
 
       body: Container(
         color: Colors.white70,
         padding: const EdgeInsets.all(10),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        child: Column(
           children: [
-            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl)),
-            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl)),
-            SizedBox(height: 100, width: 100, child: Image.network(Strings.imageUrl))
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                SizedBox(height: 100, width: 100,
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
+                    child: Image.network(Strings.imageUrl),
+                  ),
+                ),
+                SizedBox(height: 100, width: 100,
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
+                    child: Image.network(Strings.imageUrl),
+                  ),
+                ),
+                SizedBox(height: 100, width: 100,
+                  child: ClipRRect(
+                    borderRadius: const BorderRadius.all(Radius.circular(10)),
+                    child: Image.network(Strings.imageUrl),
+                  ),
+                )
+              ],
+            ),
+
           ],
         ),
       ),
 
     );
   }
+
+  _saveItem(context){
+
+  }
+
+  _showAddItemDialog(context){
+    showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (BuildContext context){
+          return Expanded(
+              child: AlertDialog(
+                shape: const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(10))
+                ),
+                title: const Text("Logout !"),
+                content: const Text("Are you sure to logout from app?"),
+                actions: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(5, 5, 10, 5),
+                        child: OutlinedButton(
+                            onPressed: (){Navigator.of(context).pop();},
+                            child: const Text("No")
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(10, 5, 5, 5),
+                        child: ElevatedButton(
+                            onPressed: (){
+                              Navigator.of(context).pop();
+                              SystemNavigator.pop();
+                            },
+                            style: buttonStyle,
+                            child: const Text("Yes")
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              )
+          );
+        }
+    );
+  }
+
+  final ButtonStyle buttonStyle = ElevatedButton.styleFrom(
+    backgroundColor: Colors.blue,
+    foregroundColor: Colors.white,
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.all(Radius.circular(200))
+    )
+  );
 
   void _onBottomNavBarItemTapped(int index) {
     setState(() {
