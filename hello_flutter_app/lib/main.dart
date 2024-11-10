@@ -156,7 +156,7 @@ class _HomeActivityState extends State<HomeActivity>{
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
                 onTap: () {
-                  _showAddItemDialog(context);
+                  _showLogoutDialog(context);
                 },
               ),
             ],
@@ -201,10 +201,10 @@ class _HomeActivityState extends State<HomeActivity>{
   }
 
   _saveItem(context){
-
+    
   }
 
-  _showAddItemDialog(context){
+  _showLogoutDialog(context){
     showDialog(
         context: context,
         barrierDismissible: false,
