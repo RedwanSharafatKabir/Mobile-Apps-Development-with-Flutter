@@ -168,6 +168,7 @@ class _HomeActivityState extends State<HomeActivity>{
         color: Colors.white70,
         padding: const EdgeInsets.all(10),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -192,7 +193,20 @@ class _HomeActivityState extends State<HomeActivity>{
                 )
               ],
             ),
-
+            const Padding(padding:  EdgeInsets.fromLTRB(15, 20, 15, 15), child: TextField(
+                decoration: InputDecoration(border: OutlineInputBorder(), labelText: "First Name"))
+            ),
+            const Padding(padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+                child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Last Name"))
+            ),
+            const Padding(padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+                child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Phone Number"))
+            ),
+            Padding(padding: const EdgeInsets.fromLTRB(15, 0, 15, 15),
+                child: ElevatedButton(onPressed: (){
+                  showToastMessage("Item added");
+                }, style: rectangleButtonStyle, child: const Text("Submit"))
+            )
           ],
         ),
       ),
@@ -223,7 +237,9 @@ class _HomeActivityState extends State<HomeActivity>{
                       Padding(
                         padding: const EdgeInsets.fromLTRB(5, 5, 10, 5),
                         child: OutlinedButton(
-                            onPressed: (){Navigator.of(context).pop();},
+                            onPressed: (){
+                              Navigator.of(context).pop();
+                            },
                             child: const Text("No")
                         ),
                       ),
@@ -234,7 +250,7 @@ class _HomeActivityState extends State<HomeActivity>{
                               Navigator.of(context).pop();
                               SystemNavigator.pop();
                             },
-                            style: buttonStyle,
+                            style: roundedButtonStyle,
                             child: const Text("Yes")
                         ),
                       ),
@@ -247,11 +263,20 @@ class _HomeActivityState extends State<HomeActivity>{
     );
   }
 
-  final ButtonStyle buttonStyle = ElevatedButton.styleFrom(
+  final ButtonStyle roundedButtonStyle = ElevatedButton.styleFrom(
     backgroundColor: Colors.blue,
     foregroundColor: Colors.white,
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.all(Radius.circular(200))
+    )
+  );
+
+  final ButtonStyle rectangleButtonStyle = ElevatedButton.styleFrom(
+    minimumSize: const Size(double.infinity, 50),
+    backgroundColor: Colors.blue,
+    foregroundColor: Colors.white,
+    shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(Radius.circular(5))
     )
   );
 
