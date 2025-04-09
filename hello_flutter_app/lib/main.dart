@@ -121,7 +121,8 @@ class _HomeActivityState extends State<HomeActivity>{
                     currentAccountPicture: Container(
                       margin: const EdgeInsets.only(bottom: 5.0),
                       child: const CircleAvatar(
-                        backgroundImage: NetworkImage(Strings.imageUrl),
+                        // backgroundImage: NetworkImage(Strings.imageUrl),
+                        backgroundImage: AssetImage('assets/images/asc.jpg'),
                       ),
                     ),
                   ),
