@@ -1,9 +1,6 @@
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hello_flutter_app/Strings.dart';
 
 void main() {
@@ -128,7 +125,7 @@ class _HomeActivityState extends State<HomeActivity>{
                   ),
                 ),
                 onTap: () {
-                  showToastMessage("Profile");
+                  showSnackBar("Profile", context);
                 },
               ),
               ListTile(
@@ -138,7 +135,7 @@ class _HomeActivityState extends State<HomeActivity>{
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
                 onTap: () {
-                  showToastMessage("Profile");
+                  showSnackBar("Profile", context);
                 },
               ),
               ListTile(
@@ -148,7 +145,7 @@ class _HomeActivityState extends State<HomeActivity>{
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
                 onTap: () {
-                  showToastMessage("App Settings");
+                  showSnackBar("App Settings", context);
                 },
               ),
               ListTile(
@@ -195,18 +192,18 @@ class _HomeActivityState extends State<HomeActivity>{
                 )
               ],
             ),
-            const Padding(padding:  EdgeInsets.fromLTRB(15, 20, 15, 15), child: TextField(
+            const Padding(padding:  EdgeInsets.fromLTRB(10, 0, 10, 10), child: TextField(
                 decoration: InputDecoration(border: OutlineInputBorder(), labelText: "First Name"))
             ),
-            const Padding(padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+            const Padding(padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                 child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Last Name"))
             ),
-            const Padding(padding: EdgeInsets.fromLTRB(15, 0, 15, 15),
+            const Padding(padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                 child: TextField(decoration: InputDecoration(border: OutlineInputBorder(), labelText: "Phone Number"))
             ),
-            Padding(padding: const EdgeInsets.fromLTRB(15, 0, 15, 15),
+            Padding(padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
                 child: ElevatedButton(onPressed: (){
-                  showToastMessage("Item added");
+                  showSnackBar("Item added", context);
                 }, style: rectangleButtonStyle, child: const Text("Submit"))
             )
           ],
@@ -289,30 +286,21 @@ class _HomeActivityState extends State<HomeActivity>{
 
     switch (index) {
       case 0:
-        showToastMessage("Dashboard");
+        showSnackBar("Home", context);
         break;
       case 1:
-        showToastMessage("Chat");
+        showSnackBar("Categories", context);
         break;
       case 2:
-        showToastMessage("Browse");
+        showSnackBar("Cam Search", context);
         break;
       case 3:
-        showToastMessage("Search");
+        showSnackBar("Cart", context);
+        break;
+      case 4:
+        showSnackBar("Profile", context);
         break;
     }
-  }
-
-  showToastMessage(message){
-    return  Fluttertoast.showToast(
-      msg: message,
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.BOTTOM,
-      timeInSecForIosWeb: 1,
-      backgroundColor: Colors.grey,
-      textColor: Colors.white,
-      fontSize: 16.0
-    );
   }
 
   showSnackBar(message, context){
